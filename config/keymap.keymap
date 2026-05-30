@@ -26,8 +26,8 @@
 
         layer_1 {
             bindings = <
-&none  &none  &none  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &PAGE_UP                 &kp COMMA     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MULTIPLY  &kp SLASH
-&none  &none  &none  &kp EQUAL          &kp LS(INT3)          &PAGE_DOWN                 &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SEMICOLON    &kp MINUS
+&none  &none  &none  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp PAGE_UP                 &kp COMMA     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MULTIPLY  &kp SLASH
+&none  &none  &none  &kp EQUAL          &kp LS(INT3)          &kp PAGE_DOWN                 &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SEMICOLON    &kp MINUS
 &none  &none  &none  &none              &none                 &none                 &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp INT1         &kp LEFT_BRACKET
                           &kp LEFT_SHIFT  &kp LCTRL  &kp LWIN  &none  &none  &none
             >;

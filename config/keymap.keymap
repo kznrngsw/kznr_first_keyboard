@@ -17,8 +17,8 @@
 
         layer_0 {
             bindings = <
-&kp ESCAPE   &kp Q  &kp W  &kp E           &kp R             &kp T      &kp Y          &kp U        &kp I          &kp O           &kp P           &kp PAGE_UP
-&kp CAPSLOCK &kp A  &kp S  &kp D           &kp F             &kp G      &kp H          &kp J        &kp K          &kp L           &kp UP_ARROW    &kp PAGE_DOWN
+&kp ESCAPE   &kp Q  &kp W  &kp E           &kp R             &kp T      &kp Y          &kp U        &kp I          &kp O           &kp P           &kp RIGHT_SHIFT
+&kp CAPSLOCK &kp A  &kp S  &kp D           &kp F             &kp G      &kp H          &kp J        &kp K          &kp L           &kp UP_ARROW    &kp ENTER
 &kp TAB      &kp Z  &kp X  &kp C           &kp V             &kp B      &kp N          &kp M        &kp RIGHT_ALT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
                           &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp SPACE  &kp BACKSPACE  &mo 1  &lt 2 ENTER
             >;
@@ -26,10 +26,10 @@
 
         layer_1 {
             bindings = <
-&none           &none           &none            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none                 &kp COMMA     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &kp SLASH
-&none           &kp UP_ARROW    &none            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_WIN          &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &kp MINUS
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SQT               &kp SEMICOLON          &kp NON_US_BACKSLASH  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none         &kp EQUAL
-                                                 &kp LEFT_SHIFT        &kp LCTRL              &kp SPACE             &none         &none         &none
+&none  &none  &none  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &PAGE_UP                 &kp COMMA     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MULTIPLY  &kp SLASH
+&none  &none  &none  &kp EQUAL          &kp LS(INT3)          &PAGE_DOWN                 &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SEMICOLON    &kp MINUS
+&none  &none  &none  &none              &none                 &none                 &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp INT1         &kp LEFT_BRACKET
+                          &kp LEFT_SHIFT  &kp LCTRL  &kp LWIN  &none  &none  &none
             >;
         };
 
